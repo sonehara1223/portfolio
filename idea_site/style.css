@@ -1,0 +1,269 @@
+body{
+	margin: 0px;
+	background: #f4f4f4;
+	font-size: 16px;
+
+}
+
+h2{
+	color: #44b6b6;
+}
+
+header{
+	margin-top: 0px;
+	height: 60px;
+	background-color: black;
+
+}
+
+
+
+#top-logo{
+	margin-top: 20px;
+	margin-left: 20px;
+	clear: both;
+}
+
+#search{
+	float: right;
+	margin-right:20px;
+	margin-top: 15px;
+	clear: both;
+
+}
+
+/*  ↓ 検索窓　*/
+
+
+#input02 i .fas fa-search{
+	float: right;
+}
+
+#form02{
+    background-color: white;
+    width:200px;
+    height: 26px;
+    border: 1px gray solid;
+
+}
+#form02 input{
+    vertical-align: top;
+    margin: 0px;
+    height: 100%;
+    box-sizing: border-box;
+    background-color: transparent;
+}
+#form02{
+    border-radius: 5px;
+}
+#input02{
+    border: none;
+    width: 170px;
+    padding-left: 10px;
+}
+#submit02{
+    width: 30px;
+    border: none;
+    
+    background-position: center;
+    background-size: auto 90%;
+    background-repeat: no-repeat;
+}
+
+/*  ↑ 検索窓　*/
+
+#main-visual{
+	background-color: #afdeec;
+	max-height: 371px;
+	width:100%;
+	
+}
+#top-image{
+	margin:0 auto;
+	width:75%;
+	
+}
+
+.col_2 {
+    display: flex;
+    justify-content: center; 
+}
+
+nav{
+	height:60px;
+	background-color: black;
+	width:100%;
+	margin: 0;
+	border-bottom: 3px solid #44b6b6;
+	text-align: center;
+}
+
+nav img{
+	float: center;
+}
+
+
+ .flex_test-box {
+ 	background-color: white;
+	border:gray solid 1px;
+	margin:30px 10% 30px 10%;    /* 外側の余白 */
+	
+ 	align-items:stretch;        /* 縦の位置指定 */
+ 	justify-content:center;    /* 左右中心にする　*/
+    padding: 20px 15px;            /* 余白指定 */
+    display: flex;
+}
+ 
+.flex_test-item {
+	background-color: #f4f4f4;
+    padding: 10px;
+    margin:  10px;              /* 外側の余白 */
+    border-radius:  5px;        /* 角丸指定 */
+}
+
+.flex_test-item p{
+	font-size: 12px;
+}
+
+.flex-item p{
+	font-size: 12px;
+}
+
+.flex_test-item:nth-child(2) img{
+	width: 100%;
+}
+.flex_test-item:nth-child(3) img{
+	width: 100%;
+}
+.flex_test-item:nth-child(4) img{
+	width: 100%;
+}
+
+
+ 
+.flex_test-item:nth-child(1) {
+	background-color: white;
+    flex-grow: 1;               /* 幅指定 */
+}
+ 
+.flex_test-item:nth-child(2) {
+	width: 20%;
+   
+    flex-shrink:2;               /* 幅指定 */
+}
+ 
+.flex_test-item:nth-child(3) {
+	width: 20%;
+    
+    flex-shrink:1;               /* 幅指定 */
+}
+ 
+.flex_test-item:nth-child(4) {
+	width: 20%;
+    
+    flex-shrink:2;               /* 幅指定 */
+}
+
+
+
+
+.flex-box {
+    background-color: white;
+	border:gray solid 1px;
+	margin:30px 10% 30px 10%;    /* 外側の余白 */
+	
+ 	align-items:stretch;        /* 縦の位置指定 */
+ 	justify-content:center;    /* 左右中心にする　*/
+    padding: 20px 15px;            /* 余白指定 */
+    display: flex;
+}
+ 
+.flex-item {
+
+    padding: 10px;
+    margin:  10px;              /* 外側の余白 */
+    border-radius:  5px;        /* 角丸指定 */
+}
+ 
+.flex-item:nth-child(1) {
+	width: 27%;
+   
+}
+ 
+.flex-item:nth-child(2) {
+	
+    width: 73%;
+    
+}
+ 
+
+.flex_test-item a { color: #44b6b6; }   /*未訪問のリンク*/
+.flex_test-item a:visited { color: #000080; }   /* 訪問済みのリンク */
+.flex_test-item a:hover {                      /* ポイント時のリンク */
+			  color: orange;
+			  font-weight: bold;
+}    
+
+.flex-item a { color: #44b6b6; }   /*未訪問のリンク*/
+.flex-item a:visited { color: #000080; }   /* 訪問済みのリンク */
+.flex-item a:hover {                      /* ポイント時のリンク */
+			  color: orange;
+			  font-weight: bold;
+}                           
+
+
+
+
+#border{
+	width: 100%;
+	margin: 0px;
+}
+
+footer{
+	background-color: black;
+	padding: 20px 15px ;
+	display: flex;
+	
+}
+
+footer div{
+	width: 100%;
+	display: inline-block;
+	vertical-align: top;
+	margin:0px 15px 20px 15px; 
+}
+
+.foot{
+	width: 100%;
+	display: inline-block;
+	vertical-align: top;
+	margin:0px 15px 20px 15px; 
+	border-left: 1px solid white ;
+
+}
+
+footer p{
+	color: white;
+	font-size: 11px;
+	margin: 0 0 0 8px;
+}
+
+footer a{
+	color: white;
+	text-decoration: none;
+	font-size: 11px;
+}
+
+footer a:hover{
+	color: orange;
+}
+
+#COMPANY{
+	border-left: none;
+}
+
+.footer-title{
+	font-size: 16px;
+	font-weight: bold;
+	padding-bottom: 6px;
+}
