@@ -7,6 +7,12 @@ body{
 
 @media screen and (max-width: 480px)　{
 
+#main-visual {
+
+float: none;
+
+}
+
 img {
 
 width: 100% ;
