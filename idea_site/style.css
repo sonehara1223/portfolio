@@ -5,6 +5,16 @@ body{
 
 }
 
+@media screen and (max-width: 480px)　{
+
+img {
+
+width: 100% ;
+
+}
+
+}
+
 h2{
 	color: #44b6b6;
 }
