@@ -115,6 +115,7 @@ a:active, a:focus,input:active, input:focus{outline:0;}
 .col_2 {
     display: flex;
 	justify-content: center;
+	width:70%;
 }
 
 #mainImg img {
@@ -174,7 +175,14 @@ section h2 span {
 	padding-bottom: 80px;
 }
 
-
+.box {
+    display: flex;
+    justify-content:center;
+	background-color: #afdeec;
+}
+.box div{
+	display: flex;
+}
 /* SEC02 Gallery
 ------------------------------------------------------------*/
 #sec02{
@@ -306,9 +314,7 @@ section h2 span {
 		padding: 0;
 		font-size: 15px;
 	}
-	.col_2 .img{
-		float: none;
-	}
+
 	
 	/* SEC03 PROJECT
 	-----------------*/
