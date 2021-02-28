@@ -73,7 +73,7 @@ a:active, a:focus,input:active, input:focus{outline:0;}
 
 }
 #form02 input{
-    vertical-align: center;
+    vertical-align: top;
     margin: 0px;
     height: 100%;
     box-sizing: border-box;
