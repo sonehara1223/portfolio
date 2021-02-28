@@ -59,6 +59,7 @@ a:active, a:focus,input:active, input:focus{outline:0;}
 #search{
 	display: flex;
 	align-items: center;
+	vertical-align: middle;
 }
 #input02 i .fas fa-search{
 	float: right;
