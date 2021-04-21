@@ -3,17 +3,21 @@
 <head>
 <meta charset="UTF-8">
 <meta name="description" content="">
-<meta name="viewport" content="width=device-width">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
 <title>DHW CREATION</title>
-<link rel="stylesheet" media="all" href="css/style.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
-<script src="js/script.js"></script>
+<link rel="stylesheet" type="text/css" href="style.css">
+  <!-- BootstrapのCSS読み込み -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<!-- jQuery読み込み -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<!-- BootstrapのJS読み込み -->
+<script src="js/bootstrap.min.js"></script>
 </head>
 
 <body id="top">
 <header id="header">
 	<div id="headerWrap">
-		<h1><img src="images/logo_idea-for-future_top.jpg" width="142" height="80" alt="logo"></h1>
+		<img src="images/logo_idea-for-future_top.jpg" width="250" height="20" alt="logo">
 		<div id="saerch">
 			<div>
 				<form id="form02" action="#">
@@ -25,129 +29,158 @@
 	</div>
 </header>
 
-<div class="box">
-    <div><img src="images/main-left.jpg"></div>
-    <div><img src="images/main-right.jpg"></div>
+<div id="main-visual">
+	<div><img src="images/main-left.jpg"></div>
+	<div><img src="images/main-right.jpg"></div>
 </div>
 
-<nav id="mainnav">
-	<p id="menuWrap"><a id="menu"><span id="menuBtn"></span></a></p>
-	<div class="panel">
-		<ul>
-			<li><a href=""><img src="images/home.jpg"></a></li>
-			<li><a href=""><img src="images/topics.jpg"></a></li>
-			<li><a href=""><img src="images/service.jpg"></li>
-			<li><a href=""><img src="images/works.jpg"></a></li>
-			<li><a href=""><img src="images/home-b.jpg"></li>
-		</ul>
+
+<div id="navi">
+	<nav>
+	<a href="" ><img src="images/home.jpg"></a><!--
+--><a href="" ><img src="images/topics.jpg"></a><!--
+--><a href="" ><img src="images/service.jpg"></a><!--
+--><a href="" ><img src="images/works.jpg"></a><!--
+--><a href="" ><img src="images/contact.jpg"></a><!--
+--><a href="" ><img src="images/home-b.jpg"></a>
+	</nav>
+	
+</div>
+	
+<div class="flex_test-box">
+   <div class="flex_test-item">
+     	<h2>NEW WORKS</h2>
+	    <p>新着実績</p>
+	    <hr><br>
+	    <a href=""><img src="images/ps_idea-jisseki_14.jpg"></a>
+    </div>
+    <div class="flex_test-item">
+        <p><img src="images/image_03.jpg"></p>
+	  	<span style="color: #44b6b6; size:16px; font: bold;">「オンリーワンの楽園へ」</span>
+	  	<p>不動産業者様のイベント映像、新生活イメージを映画の予告編風に表現。</p>
+	  	<a href="  リンクページ　"><span style="font-size: 12px;">＞＞詳細はこちら</span></a>
+    </div>
+    <div class="flex_test-item">
+        <p><img src="images/image_03-05.jpg"></p>
+	  	<span style="color: #44b6b6; size:16px; font: bold;">「音に包まれる」</span>
+	  	<p>新型ヘッドホンのTVCM。製品特徴を緩やかな映像で表現しました。</p>
+	  	<a href=" リンクページ "><span style="font-size: 12px;">＞＞詳細はこちら</span></a>
+    </div>
+    <div class="flex_test-item">
+        <p><img src="images/image_03-06.jpg"></p>
+	  	<span style="color: #44b6b6; size:16px; font: bold;">「PEACE & WAR」</span>
+	  	<p>T.O.Jの新曲PV。楽曲の世界観をカラフルな色彩で映像化しました。</p>
+	  	<a href=" リンクページ "><span style="font-size: 12px;">＞＞詳細はこちら</span></a>
+    </div>
+
+</div>	
+
+<div class="flex-box">
+        <div class="flex-item">
+            <h2>TOPICS</h2>
+		    <p>新着情報</p>
+		    <hr><br>
+	    	<a href=""><img src="images/ps_idea-sinchaku_20.jpg"></a>
+        </div>
+        <div class="flex-item">
+            <style>
+		table td {
+			background: #eee;
+		}
+		table tr:nth-child(odd) td {
+			background: #fff;
+		}
+	</style>
+		<table>
+			<tr>
+				
+				<td>2012.11.22</td>
+				<td><a href="リンク先のURL">当社制作のイベント映像が大型イベントの出展ブースで公開されました。</a></td>
+				
+			</tr>
+			<tr>
+				<td>2012.9.24</td>
+				<td><a href="リンク先のURL">撮影スタジオ、編集室が新設されました。</a></td>
+				
+			</tr>
+			<tr>
+				<td>2012.9.24</td>
+				<td><a href="リンク先のURL">テキストテキストテキストテキスト</a></td>
+				
+			</tr>
+			<tr>
+				<td>2012.9.24</td>
+				<td><a href="リンク先のURL">テキストテキストテキストテキスト</a></td>				
+
+			</tr>
+			<tr>
+				<td>2012.9.24</td>
+				<td><a href="リンク先のURL">テキストテキストテキストテキスト</a></td>
+				
+			</tr>
+			
+		</table>
+        </div>
+        
+        
+    </div>
+	
+
+
+
+<img id="border" src="images/multi-border_22.gif">
+
+<footer>
+	<div>
+		<p><span style="color: #44b6b6; font-size: 18px;">DHW</span>  <span style="font-size: 18px;">CREATION</span></p>
+		<p>株式会社デジタルハリウッドクリエイション</p>
+		<p>〒101ー0062</p>
+		<p>東京都千代田区神田駿河台2丁目13番</p>
+		<p>☎︎ 03.1234.5678</p>
+		<p>TIME 10:00~18:00/Mon-Fri</p>
 	</div>
-</nav>
 
-<!-- MESSAGE -->
-<section id="sec01">
-	<header>
-		<h2><span>Message</span></h2>
-	</header>
-	<div class="innerS">
-		ちかごろ世間で日本歴史の科学的研究ということがしきりに叫ばれている。科学的研究というのが近代史学の学問的方法による研究という意義であるならば、これは史学の学徒の間においては一般に行われていることであるから、今さらこと新しくいうには及ばないはずである。上にいったようなことがらについては、曖昧あいまいな態度をとり、または真実でない知識を強いて注入していたことも、明かな事実である。
+	<div class="foot">
+		<p class="footer-title">HOME</p>
+		<p><a href="">ホーム</a></p>
+
 	</div>
-</section>
-<!-- // MESSAGE -->
 
-<!-- GALLERY -->
-<section id="sec02">
-	<header>
-		<h2><span>Gallery</span></h2>
-	</header>
-	<ul id="gallery">
-		<li><img src="images/photo01.jpg" width="426" height="418" alt=""></li>
-		<li><img src="images/photo02.jpg" width="426" height="418" alt=""></li>
-		<li><img src="images/photo03.jpg" width="426" height="418" alt=""></li>
-		<li><img src="images/photo04.jpg" width="426" height="418" alt=""></li>
-		<li><img src="images/photo05.jpg" width="426" height="418" alt=""></li>
-		<li><img src="images/photo06.jpg" width="426" height="418" alt=""></li>
-		<li><img src="images/photo07.jpg" width="426" height="418" alt=""></li>
-		<li><img src="images/photo08.jpg" width="426" height="418" alt=""></li>
-		<li><img src="images/photo09.jpg" width="426" height="418" alt=""></li>
-	</ul>
-</section>
-<!-- // GALLERY -->
+	<div class="foot">
+		<p class="footer-title">TOPICS</p>
+		<p><a href="">新着情報一覧</a></p>
 
-<!-- PROJECT -->
-<section id="sec03">
-	<header>
-		<h2><span>Project</span></h2>
-	</header>
-	<div class="innerS">
-		<img src="images/imgProject.jpg" width="726" height="333" alt="">
-		<p>ちかごろ世間で日本歴史の今さらこと新しくいうには科学的研究ということがしきりに叫ばれているということがしきりに叫ばれている。科学的研究というのが近代史学の学問的方法による研究という意義であるならば、これは史学の学徒の間においては一般に行われていることであるから、今さらこと新しくいうには及ばないはずである。科学的研究というのが近代史学の学問的方法によるちかごろ世間で日本歴史の科学的研究及ばないはずである。</p>
 	</div>
-</section>
-<!-- // PROJECT -->
 
-<img src="images/subImg.jpg" alt="">
+	<div class="foot">
+		<p class="footer-title">SERVICE</p>
+		<p><a href="">TV/CM制作</a></p>
+		<p><a href="">PV制作</a></p>
+		<p><a href="">Web動画＆コンテンツ制作</a></p>
+		<p><a href="">DVD制作</a></p>
+		<p><a href="">音楽制作</a></p>
 
-<!-- BRAND --> 
-<section id="sec04">
-	<header>
-		<h2><span>Brand</span></h2>
-	</header>
-	<div class="inner">
-		<ul class="col3">
-			<li>
-				<p class="img"><img src="images/logo01.png" width="170" height="106" alt=""></p>
-				<p>科学的研究というのが近代史学の学問的方法による研究という意義であるならば、これは史学の学徒の間においては一般に行われていることであるから、今さらこと新しくいう。</p>
-			</li>
-			<li>
-				<p class="img"><img src="images/logo02.png" width="170" height="106" alt=""></p>
-				<p>日本歴史の科学的研究ということがしきりに叫ばれている。科学的研究というのが近代史学の学問的方法による研究という意義であるならば意義であるならば。</p>
-			</li>
-			<li>
-				<p class="img"><img src="images/logo03.png" width="170" height="106" alt=""></p>
-				<p>科学的研究というのが近代史学の学問的方法による研究という意義であるならば、これは史学の学徒の間においては一般に行われていることであるから、今さらこと新しくいう。</p>
-			</li>
-		</ul>
 	</div>
-	<div id="sec04_02">
-		<p><img src="images/logoBrand.png" width="340" height="107" alt=""></p>
-	</div>
-</section>
-<!-- // STORY -->
 
-<!-- COMPANY -->
-<section id="sec05">
-	<header>
-		<h2><span>Company</span></h2>
-	</header>
-	<div class="innerS">
-		<ul class="col2">
-			<li>
-				<p>〒103-1234<br>見本県見本市仮区見本町1-3-5</p>
-				<p>TEL 01234-567-8901</p>
-				<p>e-Mail info@example.com</p>
-				<p>営業時間 10:00〜20:00（水曜定休）</p>
-				<p>※都合により休業する場合がございます</p>
-				<p id="sns">
-					<a href="#" target="_blank"><img src="images/iconFb.png" width="20" height="20" alt="FB"></a>
-					<a href="#" target="_blank"><img src="images/iconTw.png" width="20" height="20" alt="twitter"></a>
-					<a href="#" target="_blank"><img src="images/iconInsta.png" width="20" height="20" alt="Instagram"></a>
-					<a href="#" target="_blank"><img src="images/iconYouTube.png" width="20" height="20" alt="You Tube"></a>
-				</p>
-			</li>
-			<li>
-				<div id="map">
-					<!-- GOOGLE MAP -->
-					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3198.5937927089367!2d136.92980931491988!3d36.70829797996758!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5ff781ec5af4ca3f%3A0x2ade3e8e4c2801b8!2z56aP5bKh6aeF!5e0!3m2!1sja!2sus!4v1478313402186" allowfullscreen></iframe>
-					<!-- // GOOGLE MAP -->
-				</div>
-			</li>
-		</ul>
-	</div>
-</section>
-<!-- // COMPANY -->
+	<div class="foot">
+		<p class="footer-title">WORKS</p>
+		<p><a href="">2012</a></p>
+		<p><a href="">2011</a></p>
+		<p><a href="">2010</a></p>
+		<p><a href="">2009</a></p>
 
-<footer id="footer">
-	Copyright(c) 2016 Sample Inc. All Rights Reserved. Design by <a href="http://f-tpl.com" target="_blank">http://f-tpl.com</a><!-- ←クレジット表記を外す場合はシリアルキーが必要です http://f-tpl.com/credit/ -->
+	</div>
+
+	<div class="foot">
+		<p class="footer-title">COMPANY</p>
+		<p><a href="">挨拶</a></p>
+		<p><a href="">事業内容</a></p>
+		<p><a href="">会社概要</a></p>
+		<p><a href="">沿革</a></p>
+
+	</div>
+
+
 </footer>
 
 </body>
