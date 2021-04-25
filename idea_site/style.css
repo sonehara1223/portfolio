@@ -5,7 +5,7 @@ body{
 
 }
 
-@media screen and (max-width: 480px)　{
+@media screen and (max-width: 480px){
 
 #main-visual {
 
@@ -31,24 +31,24 @@ header{
 	background-color: black;
 
 }
-
-
-
-#top-logo{
-	margin-top: 20px;
-	margin-left: 20px;
-	clear: both;
+#headerWrap{
+	display:flex;
+	margin-left: 1em;
+	margin-right: 1em;
+}
+.header_item1{
+	flex: 8;
+}
+.header_item2{
+	flex: 1;
+	display:flex;
+}
+.container_saerch{
+	display: flex;
 }
 
-#search{
-	float: right;
-	margin-right:20px;
-	margin-top: 15px;
-	clear: both;
 
-}
-
-/*  ↓ 検索窓　*/
+/*  ↓ 検索窓 */
 
 
 #input02 i .fas fa-search{
@@ -74,7 +74,7 @@ header{
 }
 #input02{
     border: none;
-    width: 170px;
+    width: 200px;
     padding-left: 10px;
 }
 #submit02{
@@ -86,17 +86,14 @@ header{
     background-repeat: no-repeat;
 }
 
-/*  ↑ 検索窓　*/
+/*  ↑ 検索窓 */
 
 #main-visual{
 	background-color: #afdeec;
 	max-height: 371px;
 	width:100%;
-	
-}
-#top-image{
-	margin:0 auto;
-	width:75%;
+	display: flex;
+	justify-content: center;
 	
 }
 
