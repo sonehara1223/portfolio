@@ -35,6 +35,7 @@ header{
 	display:flex;
 	margin-left: 1em;
 	margin-right: 1em;
+	padding-top:0.7em;
 }
 .header_item1{
 	flex: 8;
@@ -45,6 +46,10 @@ header{
 }
 .container_saerch{
 	display: flex;
+}
+.container_saerch .item1{
+	margin-left:5px;
+	margin-right:5px;
 }
 
 
